@@ -1,0 +1,113 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+main{
+
+}
+
+body{
+    height: 100%;
+}
+.navbar{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 34%, rgba(0,212,255,1) 100%);
+    height: 40px;
+}
+
+.navbar a{
+    color:antiquewhite;
+}
+
+.info-container{
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+    width: 80%;
+ 
+    padding: 0px 75px;
+    margin: 65px 0px 40px 35px;
+}
+
+.info-container img{
+    height: 300px;
+}
+
+.notas-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    right: 0px;
+    top: 3.3%;
+    width: 15%;
+    min-height: 100%;
+    background-color: aliceblue;
+    z-index: -1;
+    border: 2px solid black;
+}
+
+.notas{
+    margin: 10px;
+    border: 1px solid black;
+    
+    
+}
+
+.notas h2{
+    padding: 10px 0px 0px 10px;
+}
+
+.notas p{
+    padding: 0px 10px;
+}
+
+.notas p{
+    font-size: 90%;
+}
+
+.notas-header{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+h3{
+    height: 26px;
+}
+
+
+.argentina{
+    
+    font-size: 100%;
+    
+}
+
+.pablo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 140px;
+}
+
+.profile-container p{
+    margin-bottom: -2px;
+}
+
+.pablo-description{
+    position: absolute;
+    top: 225px;
+}
+
+.round:hover{
+    transform: scale(1.3);
+    transition: 800ms ease-in-out;
+
+}
